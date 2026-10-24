@@ -18,3 +18,14 @@ plots/
 # IDE
 .vscode/
 .idea/
+.svn/
+target/
+*.iml
+*.bak
+*.class
+*.log
+nbproject/private/
+*.sdf
+*.ilk
+*.pdb
+*.suo
