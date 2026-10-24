@@ -1,5 +1,7 @@
 # CUDA Parallel Processing
 
+> **Status:** coursework experiments. The README describes the method and qualitative findings; raw timing data and plots were not kept, so no benchmark numbers are claimed.
+
 A repository for experimenting with parallel distance computation and collision detection for randomly generated spheres.
 
 ## What this repository contains
@@ -9,9 +11,9 @@ The project currently contains two experiment tracks:
 - `experiments/cpu-baseline` — a CPU baseline that evaluates different in-memory layouts for sphere coordinates and pairwise distances.
 - `experiments/gpu-cuda` — a CUDA-based implementation that moves distance computation and collision detection to the GPU.
 
-## Why this project matters
+## What it demonstrates
 
-This repository shows work beyond typical CRUD applications:
+Coursework-style experiments in:
 
 - data-parallel problem decomposition
 - memory-layout experimentation
