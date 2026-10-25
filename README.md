@@ -1,5 +1,7 @@
 # CUDA Parallel Processing
 
+[![License](https://img.shields.io/github/license/aikitpete/cuda-parallel-processing)](LICENSE) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) ![CUDA](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white) ![Status](https://img.shields.io/badge/status-archived-lightgrey)
+
 > **Status:** university experiments. The findings below are qualitative; raw timings and plots were not kept, so no benchmark numbers are claimed.
 
 A repository for experimenting with parallel distance computation and collision detection for randomly generated spheres.
