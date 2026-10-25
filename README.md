@@ -1,6 +1,6 @@
 # CUDA Parallel Processing
 
-> **Status:** coursework experiments. The README describes the method and qualitative findings; raw timing data and plots were not kept, so no benchmark numbers are claimed.
+> **Status:** university experiments. The findings below are qualitative; raw timings and plots were not kept, so no benchmark numbers are claimed.
 
 A repository for experimenting with parallel distance computation and collision detection for randomly generated spheres.
 
@@ -13,7 +13,7 @@ The project currently contains two experiment tracks:
 
 ## What it demonstrates
 
-Coursework-style experiments in:
+Experiments in:
 
 - data-parallel problem decomposition
 - memory-layout experimentation
@@ -45,7 +45,6 @@ I compared several memory layouts for sphere-collision detection to understand h
 - 100 runs per configuration
 - Input sizes: N = 10, 50, 100, 200, 500, 1000, 2000, 5000
 - Measured elapsed time from array initialization through full collision detection
-- Used a custom `StopWatch` implementation because the provided version was incompatible; it preserves the same interface
 
 ### Layouts evaluated
 - packed `XYZR`
@@ -65,3 +64,5 @@ The main takeaway was that **memory layout mattered, but not all seemingly “be
 ## Engineering takeaway
 
 This experiment reinforced a practical lesson: in performance-sensitive code, **data layout and memory access patterns can matter as much as algorithm choice**, especially when cache behavior dominates runtime.
+
+MIT licence.
